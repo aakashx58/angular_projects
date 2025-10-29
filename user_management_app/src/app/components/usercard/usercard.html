@@ -1,12 +1,22 @@
 <div class="user-card">
-    <div class="user-actions">
+    <!-- <div class="user-actions">
         <div class="edit" (click)="onEdit()" title="Edit">
             <img src="edit.svg" alt="Edit">
         </div>
         <div class="delete" (click)="onDelete()" title="Delete">
             <img src="delete.svg" alt="Delete">
         </div>
-    </div>
+    </div> -->
+
+    <div class="user-actions">
+  <div class="edit" (click)="onEdit()" title="Edit">
+    <mat-icon>edit</mat-icon>
+  </div>
+  <div class="delete" (click)="onDelete()" title="Delete">
+    <mat-icon>delete</mat-icon>
+  </div>
+</div>
+
 
     <h2 class ="user-name">{{user.name}}</h2>
     <div class="user-details">

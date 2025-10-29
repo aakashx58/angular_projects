@@ -3,10 +3,11 @@ import { Component, Input } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { User } from '../../models/user.model';
 import { UserService } from '../../services/user.service';
+import { MatIcon } from "@angular/material/icon";
 
 @Component({
   selector: 'app-usercard',
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, MatIcon],
   templateUrl: './usercard.html',
   styleUrl: './usercard.scss',
 })
