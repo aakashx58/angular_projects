@@ -1,0 +1,189 @@
+:root {
+
+  --app-color-background: #000000;
+
+  --color-router-container: #333333;
+
+  --content-background-color: #0f0f0f;
+
+  --menu-hover: #444444;
+
+  --text-color: white;
+
+  --login-register-text: #e3e3e3;
+
+  --correct-word-color: green;
+
+  --incorrect-word-color: #b40000;
+
+  --current-word-color: #ffff71;
+
+}
+
+
+
+[data-theme="light-grey"] {
+
+  --app-color-background: #ffffff;
+
+  --color-router-container: #dddddd;
+
+  --content-background-color: #f0f0f0;
+
+  --menu-hover: #c8c8c8;
+
+  --text-color: black;
+
+  --login-register-text: #606060;
+
+  --correct-word-color: #28a745;
+
+  --incorrect-word-color: #dc3545;
+
+  --current-word-color: #a97f00;
+
+}
+
+
+
+[data-theme="ocean-blue"] {
+
+  --app-color-background: #001f3d;
+
+  --color-router-container: #00284f;
+
+  --content-background-color: #003366;
+
+  --menu-hover: #005b99;
+
+  --text-color: #f0f8ff;
+
+  --login-register-text: #cce7ff;
+
+  --correct-word-color: #001e4d;
+
+  --incorrect-word-color: #dc3545;
+
+  --current-word-color: #66ff6b;
+
+}
+
+
+
+[data-theme="dark-blue"] {
+
+  --app-color-background: #000;
+
+  --color-router-container: #0000ad;
+
+  --content-background-color: #000033;
+
+  --menu-hover: #00116f;
+
+  --text-color: #f0f8ff;
+
+  --login-register-text: #cce7ff;
+
+  --correct-word-color: green;
+
+  --incorrect-word-color: #dc3545;
+
+  --current-word-color: #ffff71;
+
+}
+
+
+
+[data-theme="dark-red"] {
+
+  --app-color-background: #000;
+
+  --color-router-container: #330000;
+
+  --content-background-color: #160000;
+
+  --menu-hover: #490000;
+
+  --text-color: #f0f8ff;
+
+  --login-register-text: #ffd6d6;
+
+  --correct-word-color: green;
+
+  --incorrect-word-color: #dc3545;
+
+  --current-word-color: #ffff71;
+
+}
+
+
+
+[data-theme="cyberpunk"] {
+
+  --app-color-background: #1a1a1a;
+
+  --color-router-container: #5b005b;
+
+  --content-background-color: #210021;
+
+  --menu-hover: #37004a;
+
+  --text-color: #00ffff;
+
+  --login-register-text: #c7c7c7;
+
+  --correct-word-color: #00ff73;
+
+  --incorrect-word-color: #ff007f;
+
+  --current-word-color: #fffb00;
+
+}
+
+
+
+[data-theme="galaxy"] {
+
+  --app-color-background: #0d0d1c;
+
+  --color-router-container: #2a2a44;
+
+  --content-background-color: #12122e;
+
+  --menu-hover: #1f1f36;
+
+  --text-color: #e0e0e0;
+
+  --login-register-text: #add8e6;
+
+  --correct-word-color: #3280cd;
+
+  --incorrect-word-color: #ad14ff;
+
+  --current-word-color: #ff6347;
+
+}
+
+
+
+[data-theme="pink"] {
+
+  --app-color-background: #ffe6f0;
+
+  --color-router-container: #ff66b2;
+
+  --content-background-color: #ffd9e6;
+
+  --menu-hover: #ffb6c1;
+
+  --text-color: #4b0082;
+
+  --login-register-text: #b30059;
+
+  --correct-word-color: #141cff;
+
+  --incorrect-word-color: #ff0000;
+
+  --current-word-color: #ff6200;
+
+}
